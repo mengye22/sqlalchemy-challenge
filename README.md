@@ -52,7 +52,7 @@ Use Python and SQLAlchemy to do basic climate analysis and data exploration of y
     
 ## Step 2 - Climate App
 
-* Use Flask to create your routes.
+* Use Flask to create routes.
 
 ### Routes
 
@@ -85,19 +85,11 @@ Use Python and SQLAlchemy to do basic climate analysis and data exploration of y
 
   * When given the start and the end date, calculate the `TMIN`, `TAVG`, and `TMAX` for dates between the start and end date inclusive.
 
-## Bonus: Other Recommended Analyses
-
-* The following are optional challenge queries. These are highly recommended to attempt, but not required for the homework.
-
 ### Temperature Analysis I
 
-* Hawaii is reputed to enjoy mild weather all year. Is there a meaningful difference between the temperature in, for example, June and December?
+* Independent T-test for the datasets, since there is temperature between June and December is not dependent on each other.
 
-* You may either use SQLAlchemy or pandas's `read_csv()` to perform this portion.
-
-* Identify the average temperature in June at all stations across all available years in the dataset. Do the same for December temperature.
-
-* Use the t-test to determine whether the difference in the means, if any, is statistically significant. Will you use a paired t-test, or an unpaired t-test? Why?
+* Since p-value is smaller that 0.5, this means the test is statistically significant.
 
 ### Temperature Analysis II
 
