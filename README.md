@@ -4,7 +4,7 @@
 
 Exploring and planning long holiday vacation in Honolulu, Hawaii! To help with this trip planning, need to do some climate analysis on the area. 
 
-## Step 1 - Climate Analysis and Exploration
+## Climate Analysis and Exploration
 
 Use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. 
 
@@ -50,7 +50,7 @@ Use Python and SQLAlchemy to do basic climate analysis and data exploration of y
 
     ![station-histogram](surf/Images/highest_count_station_temp.png)
     
-## Step 2 - Climate App
+## Climate App
 
 * Use Flask to create routes.
 
